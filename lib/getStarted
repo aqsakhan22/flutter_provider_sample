@@ -1,0 +1,19 @@
+/Users/aqsakhan/Desktop/Development/fluttersdk/latest/flutter_3.35.5/bin/flutter pub add
+selector example
+https://medium.com/@ggcsriram/flutter-provider-with-selector-4b469e6539a5
+add dependencies
+flutter pub add --dev json_serializable build_runner
+1. json_serializable
+
+json_annotation is a regular dependency because its annotations are used in your actual application code.
+json_serializable and build_runner are development dependencies (--dev flag) because they are only used during the
+ development phase to generate the serialization code and are not included in the final app's source code.
+2. response structure
+{
+  "users": [ ... ],
+  "total": 100,
+  "skip": 0,
+  "limit": 30
+}
+3. build_runner
+flutter pub run build_runner build --delete-conflicting-outputs
