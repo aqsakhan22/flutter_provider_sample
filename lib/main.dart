@@ -8,8 +8,6 @@ import 'package:providerproject/http_sample/provider_file/user_provider.dart';
 import 'package:providerproject/screens/dio_example/provider/user_dio_provider.dart';
 import 'package:providerproject/screens/dio_example/screens/user_dio_screen.dart';
 
-
-
 void main() {
   runApp(const MyApp());
 }
